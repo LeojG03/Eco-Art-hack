@@ -27,16 +27,16 @@ export default function DivProductosContainer() {
               backgroundPosition: 'center'
             }}
           ></div>
-          <h3 className="text-[#3e2f1c] text-xl font-semibold mb-3">Escultura "Renacer"</h3>
+          <h3 className="text-[#3e2f1c] text-xl font-semibold mb-3">Tortuga de Papel</h3>
           <p className="text-[#4a4033] text-sm mb-2 leading-relaxed">
-            Hecha con botellas PET recicladas y una red de plastico reutilizado.
+            Hecha con papel de un diccionario dañado, carton sin uso y pinturas biodegradables.
           </p>
-          <p className="text-[#6b5a4a] text-xs mb-3">Materiales: plástico PET, red plastica.</p>
+          <p className="text-[#6b5a4a] text-xs mb-3">Materiales: Papel, carton y pinturas biodegradables.</p>
           <a 
             href="/perfil/luna" 
             className="vendedor text-[#c7a17a] font-medium hover:text-[#b48a68] transition-colors duration-300"
           >
-            por @LunaVerde
+            por @EcoArt
           </a>
         </div>
 
