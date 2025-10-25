@@ -10,7 +10,7 @@ export default function Hero() {
         className="imagen-banner w-full h-[500px] mb-12 rounded-[20px] overflow-hidden"
         style={{
           backgroundColor: '#e8e3dc',
-          backgroundImage: 'url("../htmls/perro.jpeg")',
+          backgroundImage: 'url("/images/flores.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
@@ -32,12 +32,19 @@ export default function Hero() {
           desecho.
         </p>
 
-        {/* CTA Button */}
-        <a href="/nosotros">
-          <button className="bg-[#c7a17a] hover:bg-[#b48a68] text-white text-lg font-semibold px-8 py-4 rounded-[25px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1" style={{boxShadow: '0 3px 8px rgba(0, 0, 0, 0.1)'}}>
-            Conoce nuestra historia
-          </button>
-        </a>
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/nosotros">
+            <button className="bg-[#c7a17a] hover:bg-[#b48a68] text-white text-lg font-semibold px-8 py-4 rounded-[25px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1" style={{boxShadow: '0 3px 8px rgba(0, 0, 0, 0.1)'}}>
+              Conoce nuestra historia
+            </button>
+          </a>
+          <a href="/login">
+            <button className="bg-[#a67b5b] hover:bg-[#8b5e3c] text-white text-lg font-semibold px-8 py-4 rounded-[25px] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1" style={{boxShadow: '0 3px 8px rgba(0, 0, 0, 0.1)'}}>
+              🔐 Únete a EcoArt
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );

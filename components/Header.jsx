@@ -43,15 +43,31 @@ export default function Header() {
           </a>
         </nav>
 
-        {/* Perfil Button */}
-        <a 
-          id="perfil" 
-          href="/perfil" 
-          className="bg-[#c9c0b4] text-[#3e2f1c] px-4 py-2 rounded-[20px] font-medium transition-all duration-300 hover:bg-[#5c5c5b] hover:scale-105 hover:text-white ml-2.5 inline-block"
-          style={{boxShadow: '0 4px 10px rgba(62, 47, 39, 0.2)'}}
-        >
-          👤 Perfil
-        </a>
+        {/* Action Buttons */}
+        <div className="flex gap-3">
+          <a 
+            href="/login" 
+            className="bg-[#a67b5b] text-white px-4 py-2 rounded-[20px] font-medium transition-all duration-300 hover:bg-[#8b5e3c] hover:scale-105 inline-block"
+            style={{boxShadow: '0 4px 10px rgba(80, 50, 40, 0.15)'}}
+          >
+            🔐 Login
+          </a>
+          <a 
+            href="/subir-producto" 
+            className="bg-[#c7a17a] text-white px-4 py-2 rounded-[20px] font-medium transition-all duration-300 hover:bg-[#b48a68] hover:scale-105 inline-block"
+            style={{boxShadow: '0 4px 10px rgba(80, 50, 40, 0.15)'}}
+          >
+            ➕ Subir
+          </a>
+          <a 
+            id="perfil" 
+            href="/perfil" 
+            className="bg-[#c9c0b4] text-[#3e2f1c] px-4 py-2 rounded-[20px] font-medium transition-all duration-300 hover:bg-[#5c5c5b] hover:scale-105 hover:text-white inline-block"
+            style={{boxShadow: '0 4px 10px rgba(62, 47, 39, 0.2)'}}
+          >
+            👤 Perfil
+          </a>
+        </div>
       </div>
     </header>
   );
