@@ -22,7 +22,7 @@ export default function DivProductosContainer() {
             className="producto-imagen w-full h-48 rounded-[16px] mb-4"
             style={{
               backgroundColor: '#e8e3dc',
-              backgroundImage: 'url("https://i.pinimg.com/736x/11/7d/a4/117da460412077ff5944fde1fb42edf1.jpg")',
+              backgroundImage: 'url("/images/tortuga.jpeg")',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
